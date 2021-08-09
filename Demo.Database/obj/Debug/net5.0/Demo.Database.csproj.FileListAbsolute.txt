@@ -1,0 +1,15 @@
+D:\VisualStudio\Source\repos\Demo\Demo.Database\bin\Debug\net5.0\Demo.Database.deps.json
+D:\VisualStudio\Source\repos\Demo\Demo.Database\bin\Debug\net5.0\Demo.Database.runtimeconfig.json
+D:\VisualStudio\Source\repos\Demo\Demo.Database\bin\Debug\net5.0\Demo.Database.runtimeconfig.dev.json
+D:\VisualStudio\Source\repos\Demo\Demo.Database\bin\Debug\net5.0\Demo.Database.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Database\bin\Debug\net5.0\ref\Demo.Database.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Database\bin\Debug\net5.0\Demo.Database.pdb
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.AssemblyInfoInputs.cache
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.AssemblyInfo.cs
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\ref\Demo.Database.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.pdb
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.genruntimeconfig.cache
+D:\VisualStudio\Source\repos\Demo\Demo.Database\obj\Debug\net5.0\Demo.Database.csproj.AssemblyReference.cache
