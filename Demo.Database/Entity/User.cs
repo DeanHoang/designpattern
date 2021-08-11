@@ -19,7 +19,9 @@ namespace Demo.Database.Entity
         [Column(TypeName = "nvarchar(250)")]
         [Required]
         public string Email { get; set; }
-
+        [Column(TypeName = "nvarchar(50)")]
+        public string Password { get; set; }
+        public string ResetPasswordToken { get; set; }
         [Column(TypeName = "nvarchar(250)")]
         [Required]
         public string Role { get; set; }

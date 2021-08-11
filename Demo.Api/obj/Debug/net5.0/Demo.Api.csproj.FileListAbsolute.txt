@@ -75,3 +75,6 @@ D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Azure.Core.dll
 D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Azure.Identity.dll
 D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

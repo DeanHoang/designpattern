@@ -1,5 +1,6 @@
 ﻿using Demo.Service.IApiService;
 using Demo.Service.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -31,16 +32,20 @@ namespace Demo.Api.Controllers
         {
             return _categoryService.GetCategory(categoryId);
         }
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public CategoryModel AddCategory(CategoryModel category)
         {
             return _categoryService.AddCategory(category);
         }
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public CategoryModel UpdateCategory(int id, CategoryModel category)
         {
             return _categoryService.UpdateCategory(id, category);
         }
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public bool DeleteCategory(int id)
         {
