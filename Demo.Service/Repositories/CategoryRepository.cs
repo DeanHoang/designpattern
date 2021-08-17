@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Demo.Database.Entity;
 using Demo.Service.IRepositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace Demo.Service.Repositories
 {
@@ -71,7 +72,8 @@ namespace Demo.Service.Repositories
         {
             try
             {
-                var category = _context.Categories.Find(categoryId);
+                var category = _context.Categories.Include(p => p.Products)
+                    .FirstOrDefault(c => c.Id == categoryId);
                 return category;
             }
             catch (Exception e)

@@ -62,7 +62,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -81,6 +81,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Should": {
+              "target": "Package",
+              "version": "[1.1.20, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -162,6 +166,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.8, )"
@@ -183,6 +191,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Should": {
+              "target": "Package",
+              "version": "[1.1.20, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
