@@ -5,6 +5,7 @@ using Demo.Service.IApiService;
 using Demo.Service.IRepositories;
 using Demo.Service.JWT;
 using Demo.Service.Repositories;
+using DocumentFormat.OpenXml.Bibliography;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +16,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
@@ -41,7 +43,7 @@ namespace Demo.Api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Demo.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Demo.Api", Version = "v1",Description = "A simple example ASP.NET Core Web API" });
             });
 
             services.AddDbContext<AppDBContext>(options =>
@@ -79,6 +81,24 @@ namespace Demo.Api
                 config.AddPolicy(Policies.Policies.Member, Policies.Policies.MemberPolicy());
                 config.AddPolicy(Policies.Policies.Admin_Member, policy => policy.RequireRole(Policies.Policies.Admin, Policies.Policies.Member));
             });
+            services.ConfigureSwaggerGen(options =>
+            {
+                //options.SingleApiVersion(new Info
+                //{
+                //    Version = "v1",
+                //    Title = "Demo API",
+                //    Description = "A simple example ASP.NET Core Web API",
+                //    TermsOfService = "None",
+                //});
+
+                //Determine base path for the application.
+                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+
+                //Set the comments path for the swagger json and ui.
+                options.IncludeXmlComments(basePath + "\\Demo.Api.xml");
+            });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

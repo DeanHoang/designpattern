@@ -79,3 +79,13 @@ D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.AspNetCore
 D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Should.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\System.Web.Http.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\System.Web.Http.WebHost.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Swashbuckle.Core.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\WebActivatorEx.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Demo.Api.xml
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+D:\VisualStudio\Source\repos\Demo\Demo.Api\bin\Debug\net5.0\System.IO.Packaging.dll
